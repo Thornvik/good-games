@@ -106,6 +106,7 @@ function draw() {
     
     //ball bounce of the right wall and the logic for player one to hit the ball
     if(x + dx > canvas.width-ballRadius) {
+        
         if (y > paddleOne && y > paddleOne + paddleWidth) {
             dx = -dx;
         }
